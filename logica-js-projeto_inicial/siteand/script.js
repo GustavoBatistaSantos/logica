@@ -1,7 +1,7 @@
 // Função para alternar entre as abas de Sistemas do Corpo Humano
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
-    
+
     // Esconde todos os conteúdos das abas
     tabcontent = document.getElementsByClassName("tab-content");
     for (i = 0; i < tabcontent.length; i++) {
@@ -24,7 +24,7 @@ function openTab(evt, tabName) {
 
 // Fechamento suave do menu ao clicar em links (opcional para mobile)
 document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+    anchor.addEventListener('click', function (e) {
         // O scroll-behavior: smooth no CSS já cuida do deslize
     });
 });
